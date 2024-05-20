@@ -1,0 +1,281 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#0A1C27"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/rc01pk4ilqdc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FF0A1C27"
+        android:paddingBottom="149dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/r4on90jwapu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="#FF062C28"
+                android:paddingVertical="13dp"
+                android:paddingHorizontal="9dp"
+                android:layout_marginBottom="66dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivKembali"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_marginEnd="14dp"
+                    android:src="@drawable/kiri"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/rmqz3d03u1jp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="19sp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Profil" />
+            </LinearLayout>
+
+
+
+            <ImageView
+                android:id="@+id/rrchx8gvcm3e"
+                android:layout_width="match_parent"
+                android:layout_height="144dp"
+                android:src="@drawable/pp"
+                android:scaleType="fitCenter"
+                android:layout_marginBottom="30dp"/>
+
+
+            <ScrollView
+                android:id="@+id/r10ncyc4uxle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/r03h50ea52ekh"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FF0A1C27"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="16dp"
+                        android:paddingHorizontal="16dp"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/rs7iky5oqntq"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginEnd="20dp"
+                            android:src="@drawable/user"
+                            android:scaleType="fitXY" />
+
+                        <LinearLayout
+                            android:id="@+id/r3rowrb70fgu"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginEnd="4dp"
+                            android:clipChildren="false"
+                            android:clipToPadding="false"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/r4q33lojfo3x"
+                                android:textColor="#A39B9B"
+                                android:textSize="13sp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_marginStart="1dp"
+                                android:layout_height="wrap_content"
+                                android:layout_width="wrap_content"
+                                android:text="Nama" />
+
+                            <TextView
+                                android:id="@+id/rlb467pa63y"
+                                android:textColor="#FFFFFF"
+                                android:textSize="17sp"
+                                android:layout_marginBottom="3dp"
+                                android:layout_height="wrap_content"
+                                android:layout_width="wrap_content"
+                                android:text="Fhryan" />
+
+                            <TextView
+                                android:id="@+id/rq1jonf82po"
+                                android:textColor="#FFFFFF"
+                                android:textSize="9sp"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:text="Ini bukan nama pengguna atau PIN anda. Nama ini akan terlihat oleh kontak WhatsApp anda" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/r4l27op8af58"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="13dp"
+                            android:src="@drawable/edit"
+                            android:scaleType="fitXY" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/rt07276zd8oo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FF0A1C27"
+                        android:paddingVertical="8dp"
+                        android:layout_marginTop="-12dp"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/rv3lo54bva69"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="9dp"
+                            android:layout_marginHorizontal="16dp"
+                            android:clipChildren="false"
+                            android:clipToPadding="false"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/rvm0usiijfnh"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_marginEnd="20dp"
+                                android:src="@drawable/info"
+                                android:scaleType="fitXY" />
+
+                            <LinearLayout
+                                android:id="@+id/rgadm6exgyk"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_marginEnd="4dp"
+                                android:clipChildren="false"
+                                android:clipToPadding="false"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/rjj6dbybffh"
+                                    android:textColor="#A39B9B"
+                                    android:textSize="13sp"
+                                    android:layout_marginBottom="1dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:text="Info" />
+
+                                <TextView
+                                    android:id="@+id/rwjvwb216ngp"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="15sp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:text="/&gt;" />
+                            </LinearLayout>
+
+                            <ImageView
+                                android:id="@+id/rhwyx9k4mq7"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/edit"
+                                android:scaleType="fitXY" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/rbe3cey6hx7"
+                            android:layout_width="294dp"
+                            android:layout_height="2dp"
+                            android:clipChildren="false"
+                            android:clipToPadding="false"
+                            android:orientation="vertical">
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+
+            <LinearLayout
+                android:id="@+id/rtj6g516il2a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FF0A1C27"
+                android:paddingTop="1dp"
+                android:paddingBottom="3dp"
+                android:paddingHorizontal="16dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/r6otgljkxr7p"
+                    android:layout_width="26dp"
+                    android:layout_height="28dp"
+                    android:layout_marginEnd="24dp"
+                    android:src="@drawable/phone"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:id="@+id/rnkduw8yb9zn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="1dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/re3ld4cprp1e"
+                        android:textColor="#A39B9B"
+                        android:textSize="12sp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Telepon" />
+
+                    <TextView
+                        android:id="@+id/rn38x9tw8vz"
+                        android:textColor="#FFFFFF"
+                        android:textSize="13sp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="+62 819-0622-1325" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

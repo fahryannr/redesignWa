@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".beranda"
+    android:background="#F5011420">
+
+    <LinearLayout
+        android:id="@+id/rmbfusv2ycvr"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="#FF062C28"
+        android:paddingVertical="10dp"
+        android:paddingLeft="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/rc5q7xlj1d3c"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="WhatsApp"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp"
+            android:layout_marginEnd="4dp"/>
+
+        <ImageView
+            android:id="@+id/rw79jt9cjg9l"
+            android:layout_width="41dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="14dp"
+            android:src="@drawable/kamera"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/rifmnez72tx"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginEnd="4dp"
+            android:src="@drawable/search"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/ivpengaturan"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:src="@drawable/titiktiga"
+            android:scaleType="fitXY"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivchat"
+        android:layout_width="419dp"
+        android:layout_height="582dp"
+        android:src="@drawable/kolomchat"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <LinearLayout
+        android:id="@+id/rknvlje57ei"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="#FF072D29"
+        android:paddingVertical="9dp"
+        android:paddingHorizontal="22dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:id="@+id/rfuxan0euf7m"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginBottom="1dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/messaging" />
+
+            <TextView
+                android:id="@+id/rtgrfh5u65d8"
+                android:textColor="#FFFFFF"
+                android:textSize="19sp"
+                android:layout_marginStart="13dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Chat"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rem2ml4g9slm"
+            android:layout_width="67dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="33dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivstatus"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="12dp"
+                android:src="@drawable/replace"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/r1ek3g1cpi52"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Pembaruan" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rfuqq4ycu2pm"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginEnd="32dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/rsc5gz97pxtr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/rwjhwb9bc19q"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_marginHorizontal="6dp"
+                    android:src="@drawable/users"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:id="@+id/r2amn9khx8r3"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Komunitas" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rtxujyqhc3z"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivpanggilan"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginHorizontal="8dp"
+                android:src="@drawable/phone"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/rm3814x8gcd"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Panggilan" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
